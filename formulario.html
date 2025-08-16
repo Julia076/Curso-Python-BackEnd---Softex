@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #efd6ff;
+        padding: 40px;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: auto;
+        background: #eed4ff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(190, 190, 190, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Digite seus dados</h1>
+    <form method="POST">
+      <label>Nome:</label><br />
+      <input type="text" name="nome" value="{{ nome }}" /><br /><br />
+
+      <label>Idade:</label><br />
+      <input type="text" name="idade" value="{{ idade }}" /><br />
+
+      <label>Altura :</label><br />
+      <input type="text" name="altura" value="{{ altura }}" /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
