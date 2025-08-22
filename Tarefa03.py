@@ -1,6 +1,8 @@
-p=2500
-i=0.009
-n=7
+p= float(input('informe quanto você aplicou:'))
+i= float(input('informe a taxa:'))
+n= int(input('informe quantos meses:'))
+
+i= i/100
 
 M=p*(1+i)**n
 J=M-p
