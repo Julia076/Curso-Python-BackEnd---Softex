@@ -1,0 +1,1 @@
+#7) O usuário vai definir a quantidade de números a serem armazenado em uma lista. Esses números devem ser gerados aleatoriamente (1 a 100). Elabore um programa que mostre esses números e quais desses números armazenados são quadrados perfeitos. * Utilize o randint e sqrt das bibliotecas random e math respectivamente.
